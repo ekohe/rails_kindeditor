@@ -81,15 +81,11 @@ MIT License. Copyright 2011
 将下面代码加入Gemfile：
 
   gem "carrierwave"
-  gem "rails_kindeditor"
+  gem "rails_kindeditor", :git => 'git://github.com/jerryshen/rails_kindeditor.git'
 
 运行"bundle"命令：
 
   bundle
-
-安装Kindeditor，运行下面的代码：
-
-  rails generate rails_kindeditor:install
   
 完毕！默认情况下，rails_kindeditor在上传文件时不会把文件信息记录入数据库。
 
