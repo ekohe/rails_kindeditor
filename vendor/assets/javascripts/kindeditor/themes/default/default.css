@@ -390,6 +390,9 @@
 	overflow: hidden;
 	cursor: pointer;
 }
+.ke-dialog-default span input {
+  height: 26px;
+}
 .ke-toolbar .ke-on {
 	border: 1px solid #5690D2;
 }

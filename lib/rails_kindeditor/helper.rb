@@ -8,11 +8,11 @@ module RailsKindeditor
         lang = %w(en zh_CN zh_TW).include?(lang) ? lang : "zh_CN"
         cache_name = (cache == "true" ? "kindeditor-cache" : "kindeditor-#{cache}")
         output = ""
-        output << stylesheet_link_tag("/javascripts/kindeditor/themes/default/default.css") << "\n"
+        output << stylesheet_link_tag("/assets/kindeditor/themes/default/default.css") << "\n"
         if config.perform_caching && !cache.empty?
-          output << javascript_include_tag("/javascripts/kindeditor/kindeditor-min.js", "/javascripts/kindeditor/lang/#{lang}.js", "/javascripts/kindeditor/kindeditor-init.js", :cache => "kindeditor/#{cache_name}")
+          output << javascript_include_tag("/assets/kindeditor/kindeditor-min.js", "/assets/kindeditor/lang/#{lang}.js", "/assets/kindeditor/kindeditor-init.js", :cache => "kindeditor/#{cache_name}")
         else
-          output << javascript_include_tag("/javascripts/kindeditor/kindeditor-min.js", "/javascripts/kindeditor/lang/#{lang}.js", "/javascripts/kindeditor/kindeditor-init.js")
+          output << javascript_include_tag("/assets/kindeditor/kindeditor-min.js", "/assets/kindeditor/lang/#{lang}.js", "/assets/kindeditor/kindeditor-init.js")
         end
         output.html_safe
       end

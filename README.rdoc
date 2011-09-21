@@ -13,9 +13,7 @@ Run "bundle" command.
 
   bundle
 
-Run install generator:
-
-  rails generate rails_kindeditor:install
+For rails 3.1, you do not need to run install commend.
   
 That's all! By default, rails_kindeditor do not save upload file information into database.
 

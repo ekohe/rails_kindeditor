@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "rails_kindeditor"
   s.version     = RailsKindeditor::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = "Macrow"
-  s.email       = "Macrow_wh@163.com"
-  s.homepage    = ""
-  s.summary     = "Kindeditor(4.x) for Rails3"
-  s.description = "Kindeditor(4.x) for Rails3, including image and file upload with carrierwave."
+  s.authors     = "JerryShen"
+  s.email       = "hansay99@gmail.com"
+  s.homepage    = "https://github.com/jerryshen/rails_kindeditor"
+  s.summary     = "Kindeditor(4.x) for Rails3.1"
+  s.description = "Kindeditor(4.x) for Rails3.1, including image and file upload with carrierwave."
 
   s.rubyforge_project = "rails_kindeditor"
 
