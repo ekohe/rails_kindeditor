@@ -7,7 +7,7 @@ Kindeditor for Rails3, including image and file upload with carrierwave.
 Add this to your Gemfile
 
   gem "carrierwave"
-  gem "rails_kindeditor"
+  gem "rails_kindeditor", :git => 'git://github.com/jerryshen/rails_kindeditor.git'
 
 Run "bundle" command.
 
